@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Ravi+Prakash');
+
+/*General Overall Styles*/
+html {
+    min-height: 100%
+}
+
+* {
+  font-family: Optima;
+}
+
+h1 {
+  text-align: center;
+}
+
+p{
+  font-size: 1.5em;
+  text-indent: 50px;
+  text-overflow: ellipsis;
+}
+
+/*Nav Styles*/
+#logo {
+    max-width: 30%;
+    max-height: 30%;
+}
+
+.navbar-fixed-top {
+  position: inherit;
+}
+
+#indexNav {
+  position: fixed;
+}
+
+/*Carousel Styles*/
+.jumbotron {
+    height: 100%;
+}
+
+img.item {
+    width: 100vh;
+    height: 100vh;
+}
+
+/*Thumbnail Images styles*/
+.thumbnails {
+    padding: 0px 10% 5% 10%;
+}
+
+.partyName {
+  position: absolute;
+  top: 60%;
+  left: 20%;
+  font-size: 36px;
+   color: white;
+   font-family: 'Ravi Prakash', cursive;
+}
+
+/*About Page Styles*/
+.text{
+  margin-bottom:  20%;
+}
+
+#demo {
+	width: 100%;
+	padding: 3px;
+	border: 1px solid #ccc;
+}
+
+#btn1{
+  margin-left: 35%;
+
+}
+#btn2{
+  margin-left: 1;
+
+}
+#btn3{
+  margin-left: 1%;
+
+}
+#btn4{
+  margin-left: 1%;
+
+}
+
+/*Contact Form styles*/
+#middle{
+  margin-top: 7%;
+}
+
+/*Footer Styles*/
+footer {
+    background: #333;
+    color: #fff;
+    padding: 30px 0 20px 0;
+    position: absolute;
+    width: 100%;
+}
+
+footer li {
+    float: left;
+    padding: 0px 10px 0px 10px;
+    list-style: none;
+}
+
+footer a {
+    color: #fff;
+}
+
+footer p {
+    float: right;
+    text-indent: 0px;
+    font-size: 1.2em;
+}
+
+/*For Debugging Purposes*/
+/** {
+  border: 1px solid red;
+}*/
